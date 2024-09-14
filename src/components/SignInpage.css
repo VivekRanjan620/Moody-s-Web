@@ -1,0 +1,87 @@
+.signin-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signin-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signin-form label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signin-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signin-form button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-form button:hover {
+    background-color: #005bb5;
+}
+
+.or-divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.or-divider span {
+    background-color: #f9f9f9;
+    padding: 0 10px;
+}
+
+.register-prompt {
+    font-size: 14px;
+}
+
+.register-prompt a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.register-prompt a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-prompt {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}

@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+:root {
+    --america:'GT-America-Standard';
+    --financier:'financier-display';
+    --color1:#0a1264;
+    --color2:#005eff;
+    --color3:#ffff;
+    --color4:#0000;
+    --color5:#F0F0F1;
+    
+}
+
+@font-face {
+    font-family: 'financier-display';
+    src: url('../public/fonts/financier-display-semibold.ttf');
+    font-weight:600;
+}
+
+@font-face {
+    font-family: 'GT-America-Standard';
+    src: url('../public/fonts/GT-America-Standard-Bold.ttf');
+    font-weight:700;
+}
+
+@font-face {
+    font-family: 'GT-America-Standard';
+    src: url('../public/fonts/GT-America-Standard-Medium.ttf');
+    font-weight:500;
+}
+
+@font-face {
+    font-family: 'GT-America-Standard';
+    src: url('../public/fonts/GT-America-Standard-Regular.ttf');
+    font-weight:400;
+}
+

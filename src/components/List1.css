@@ -1,0 +1,43 @@
+.ListFirst {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 483px;
+  line-height: 48px;
+  font-family: "GT America", helvetica, arial, sans-serif;
+  color: rgb(25, 25, 25);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  background-color: rgba(25,  25,  25,  0.04);
+  border: 1px solid black;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.ListFirst ul li {
+  list-style: none;
+  height: 48px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* .fa-solid{
+    display: flex; 
+    justify-content: flex-end;
+} */
+
+.ListFirst .gray {
+  background-color: rgba(227, 227, 227, 0.619);
+}
+
+.ListFirst ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.ListFirst .Fine:hover{
+    background-color: rgba(227, 227, 227, 0.619);
+    cursor: pointer;
+}

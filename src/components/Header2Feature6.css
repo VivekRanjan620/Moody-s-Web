@@ -1,0 +1,74 @@
+.page-container {
+  width: 1296px;
+  height: 490px;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: var(--color1);
+  color: #ffff;
+  background-color: #0ba730;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.section {
+  height: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1-cont {
+  width: 490px;
+  padding: 20px;
+  height: 100%;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.section1-cont h2 {
+  font-size: 66px;
+  font-family: var(--financier);
+  margin: 130px 0 0 75px;
+  line-height: 65px;
+}
+
+.section1-cont p {
+  margin: 15px 0 0 75px;
+  font-size: 22px;
+  font-family: var(--america);
+  line-height: 30px;
+}
+
+.sec-sup li{
+list-style: none;
+margin: 30px 0 0 20px;
+font-size: 20px;
+font-family: var(--america);
+font-weight: 500;
+}
+
+
+.section6-img {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: calc(100% - 490px);
+  height: 490px;
+}
+
+.section6-img > img {
+  width: 100%;
+  height: 100%;
+  transition: width 0.3s ease;
+  object-fit: cover;
+}
+
+.section6-img > img.img-shrink {
+  width: 10%;
+}
+
+

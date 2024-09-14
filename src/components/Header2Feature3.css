@@ -1,0 +1,139 @@
+.page-container {
+    width: 1296px;
+    height: 490px;
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: var(--color1);
+    color: #ffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .section {
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section1 {
+    width: 496px;
+    border-right: 1px solid #0ba730;
+    padding: 20px;
+  }
+  
+  .section1 h2 {
+    font-size: 66px;
+    color: #e9f1eb;
+    font-family: var(--financier);
+    margin: 40px 0 0 55px;
+    line-height: 65px;
+  }
+  
+  .section1 p {
+    margin: 15px 0 0 55px;
+    font-size: 22px;
+    font-family: var(--america);
+    line-height: 30px;
+  }
+  
+  .section2 {
+    width: 424px;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .section2 .list1 {
+    width: 343px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 24px;
+    font-family: var(--america);
+    list-style: none;
+    margin: 70px 0;
+  }
+  
+  .section2 .list1 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 45px;
+    cursor: pointer;
+  }
+  
+  .section2 .list1 li i {
+    font-size: 16px;
+    margin-left: auto;
+    color: #e8ede9;
+  }
+  
+  .section2 .list1 li:hover {
+    color: rgb(98, 98, 233);
+  }
+  
+  .section3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 343px;
+    height: 490px;
+  }
+  
+  .section3 > img {
+    width: 100%;
+    height: 100%;
+    transition: width 0.3s ease;
+    object-fit: cover;
+  }
+  
+  .section3 > img.img-shrink {
+    width: 10%;
+  }
+  
+  .new-page {
+    position: absolute;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .new-page {
+    background-color: var(--color1);
+  }
+  
+  .new-page .Banking  {
+    margin: 70px 0;
+    font-size: 22px;
+    font-family: var(--america);
+    line-height: 1.5;
+     width: 290px;
+    height: 80px; 
+    list-style: none;
+    line-height: 47px;
+  }
+  
+  .Banking  li:hover {
+      color: rgb(98, 98, 233); 
+    }
+    
+    .Banking li:hover i {
+      font-size: 16px;
+      margin-left: auto;
+      color: #e8ede9;
+    }
+  
+  .Banking li i {
+    font-size: 16px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    cursor: pointer;
+  }

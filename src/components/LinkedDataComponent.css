@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+  }
+  
+  .category-list {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    overflow-y: auto;
+    margin-top: 128px;
+  }
+  
+  .category-item {
+    padding: 7px;
+    cursor: pointer;
+    background-color: #b5adad;
+    margin-bottom: 5px;
+    text-align: center;
+    overflow-y: auto;
+  }
+  
+  .category-item.active {
+    background-color: #d9d9d9;
+  }
+  
+  .item-list {
+    margin-left: 10px;
+    width: 428px;
+    height: 49px;
+    background-color: #f5dede;
+    padding: 7px;
+    overflow-y:visible ;
+    border-radius: 5px;
+    list-style-type: none;
+    
+    align-items: center;
+  }
+  
+  .item {
+    
+    width: 328px;
+    height: 52px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    background-color: #f5dede;
+    padding: 10px;
+    overflow-y:visible ;
+    border-radius: 5px;
+    list-style-type: none;
+  }
+  

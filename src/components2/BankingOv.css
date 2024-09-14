@@ -1,0 +1,638 @@
+.bnk {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 15vh;
+  background-color: var(--color1);
+  color: var(--color3);
+  padding-bottom: 4em;
+}
+
+.left1 {
+  width: 30%;
+  font-family: var(--financier);
+}
+
+.left1 > h2 {
+  font-size: 4rem;
+}
+
+.right1 {
+  width: 45%;
+  font-family: var(--america);
+  font-size: 1.3rem;
+  overflow-y: auto;
+}
+
+.cont1 {
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://www.moodys.com/web/en/us/v3/sectors/banking/banking-hero.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Resp-header nav {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(6, 235, 82, 0.815);
+  /* E6E7EF */
+}
+
+.raw {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 1rem; */
+  padding: 0em 5em;
+}
+
+.fbi {
+  position: relative;
+  background-color: #e6e7ef;
+  flex-basis: 30%;
+}
+
+.blue-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: rgb(53, 21, 236);
+}
+
+.crd-img-cnt {
+  position: absolute;
+  top: 0;
+  padding: 1em;
+  background-color: blue;
+}
+
+.crd-cnt {
+  padding: 8em 2em 2em 2em;
+}
+
+.crd-cnt > h3 {
+  color: var(--color1);
+  font-weight: 400;
+}
+
+.crd-cnt > p {
+  color: var(--color1);
+  padding-top: 2em;
+}
+
+.Vista {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8vh;
+  width: 80%;
+  margin-left: 8vw;
+}
+
+.left2 {
+  background-image: url(https://www.moodys.com/web/en/us/v3/sectors/banking/testimonial.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100vh;
+}
+
+.left2 > p {
+  background-color: var(--color2);
+  color: var(--color3);
+  width: 50%;
+  height: 7vh;
+  font-size: 1rem;
+  font-family: var(--america);
+  font-weight: 500;
+  margin-left: 17vw;
+  padding-left: 3vw;
+  align-content: center;
+}
+
+.right2 {
+  width: 60%;
+  height: 95vh;
+  background-color: var(--color2);
+  color: var(--color3);
+}
+
+.right2 > h3 {
+  width: 80%;
+  padding-top: 15rem;
+  padding-left: 5rem;
+}
+
+.right2 > p {
+  width: 40%;
+  font-size: 1rem;
+  font-family: var(--america);
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+/* SEC-8 */
+.scrollspy-example {
+  height: 300px;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* SEC-9--CARD-01 */
+
+.rbb1 {
+  width: 100%;
+  background-color: var(--color5);
+  padding: 15vh 0 20vh 0;
+}
+
+.rbb1 > h2 {
+  color: var(--color1);
+  font-family: var(--financier);
+  font-size: 4rem;
+  padding: 0vh 7vw;
+}
+
+.rbb2 {
+  width: 85%;
+  margin: auto;
+}
+
+.card-body:hover {
+  background-color: var(--color2);
+  color: #ffff;
+}
+
+.card > img {
+  height: 30vh;
+}
+
+.upr {
+  width: 45%;
+  height: 7vh;
+  background-color: var(--color3);
+  position: absolute;
+  top: -41px;
+  left: 0;
+}
+
+.upr > p {
+  color: var(--color2);
+  font-weight: 500;
+  font-family: var(--america);
+  margin-left: 2vw;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-body:hover,
+.card-body:hover .upr,
+.card-body:hover > p,
+.card-body:hover > button,
+.upr:hover > p {
+  background-color: var(--color2);
+  color: white;
+}
+
+.card-body > p {
+  width: 82%;
+  color: var(--color1);
+  font-size: 1.3rem;
+  font-family: var(--america);
+  padding: 3vh 1vw;
+}
+
+.card-body > button {
+  background-color: transparent;
+  border: none;
+  color: var(--color2);
+  font-family: var(--america);
+  font-size: 1.3rem;
+}
+
+.card-body > button > i {
+  font-size: 1.2rem;
+}
+
+/* SEC-10 */
+.gsa {
+  width: 100%;
+  height: 70vh;
+  background-color: darksalmon;
+  color: #ffff;
+  font-size: 4rem;
+  padding-left: 15vw;
+  padding-top: 15vh;
+}
+
+.vd > iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* SEC-11-VIDEO */
+.custom-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.custom-video-container iframe {
+  width: 70vw;
+  height: 30vw;
+  max-width: 960px;
+  border: none;
+}
+
+/* SEC-12 */
+
+.Main-12 {
+  width: 100%;
+  /* margin-left: 5vw; */
+  padding: 0px 5em;
+}
+
+.hd-12 > h2 {
+  color: var(--color1);
+  font-family: var(--financier);
+  font-size: 4rem;
+}
+
+.hd-12 > p {
+  width: 80%;
+  color: var(--color1);
+  font-family: var(--america);
+  font-size: 1.3rem;
+}
+
+.div-12 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 12vh;
+  width: 100%;
+}
+
+.left-12 {
+  width: 40%;
+}
+
+.left-12 > h3 {
+  color: var(--color1);
+  font-family: var(--financier);
+  font-size: 3rem;
+}
+
+.left-12 > p {
+  width: 80%;
+  color: var(--color1);
+  font-family: var(--america);
+  font-size: 1.3rem;
+  padding-top: 20px;
+}
+
+.right-12 {
+  width: 60%;
+}
+
+.right-12 {
+  background-image: url("https://www.moodys.com/web/en/us/who-we-serve/banking/_jcr_content/root/container/container_764118754_/container_500640435_/image_copy.coreimg.jpeg/1719406225275/bx21925-banking-technologies-campaign-infographic.jpeg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+/* SEC-13--CARD-02 */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(350px, 1fr));
+  grid-template-columns: 370px 350px 350px;
+  background-color: var(--color5);
+  padding: 10px;
+  gap: 20px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: #ffff;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.item1 {
+  grid-row: span 1;
+}
+
+.item2 {
+  grid-row: span 2;
+}
+
+.item3 {
+  grid-row: span 3;
+}
+
+.item4 {
+  grid-row: span 4;
+}
+
+.item5 {
+  grid-row: span 5;
+}
+
+.item6 {
+  grid-row: span 5;
+}
+
+.item7 {
+  grid-row: span 5;
+}
+
+.item8 {
+  grid-row: span 5;
+}
+
+.card-13 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-13 .upr-13 > img {
+  width: 100%;
+}
+
+.tpt > button {
+  margin: 16px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 16px;
+  background-color: transparent;
+  color: var(--color2);
+  font-family: var(--america);
+  font-size: 1.3rem;
+  align-self: flex-start;
+}
+
+.card-body > button > i {
+  font-size: 1.2rem;
+}
+
+.tpt {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tpt p,
+.tpt h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.tpt p {
+  color: var(--color1);
+  font-family: var(--america);
+  font-size: 1rem;
+}
+
+.tpt h4 {
+  margin-top: 8px;
+  font-size: 1.4rem;
+  width: 90%;
+  color: var(--color1);
+  font-family: var(--america);
+  padding-bottom: 10px;
+}
+
+.upr-13 {
+  width: 55%;
+  height: 8%;
+  background-color: var(--color3);
+  position: absolute;
+  top: 191.5px;
+  left: 0;
+}
+
+.upr-13 > p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color2);
+}
+
+.upr-13 > p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.grid-item:hover,
+.grid-item:hover .tpt p,
+.grid-item:hover .tpt h4,
+.grid-item:hover .upr-13,
+.grid-item:hover .upr-13 p,
+.tpt:hover button {
+  background-color: var(--color2);
+  color: white;
+}
+
+.grid-item:hover .upr-13 {
+  background-color: var(--color2);
+  color: white;
+}
+
+/* SEC-14-ANIMATION */
+.scroll-container {
+  width: 100vw;
+  overflow: hidden;
+  height: 30vh;
+}
+
+.scroll-content {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.scroll-img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  align-items: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* SEC-15-CARD-03 */
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(350px, 1fr));
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: auto; /* Dynamic row height */
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+
+.grid-items {
+  position: relative;
+  background-color: #e5efff;
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Icon with background color in the top-left corner for item-1 */
+.item-15-1::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #CCDFFF; 
+  background-image: url('https://www.moodys.com/web/en/us/v3/icon/podcasts.svg');
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Icon with background color in the top-left corner for item-2 */
+.item-15-2::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #CCDFFF;
+  background-image: url('https://www.moodys.com/web/en/us/v3/icon/whitepapers.svg');
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Icon with background color in the top-left corner for item-3 */
+.item-15-3::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #CCDFFF;
+  background-image: url('https://www.moodys.com/web/en/us/v3/icon/events.svg');
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+.item-15-1>h3>i,
+.item-15-2>h3>i,
+.item-15-3>h3>i
+{
+ color: var(--color2);
+  font-size: 2rem;
+ padding-left: 5vw;
+}
+
+.item-15-1 > h3, .item-15-2 > h3, .item-15-3 > h3 {
+  display: flex;
+  margin: 0; 
+  padding-top: 30%;
+  padding-left: 5%;
+  font-size: 1rem;
+  font-family: var(--america);
+  color: var(--color1);
+}
+
+.item-15-1 > p, .item-15-2>p, .item-15-3 > p {
+  font-size: 0.9rem;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-bottom: 20%;
+  font-family: var(--america);
+  font-weight: 400;
+  color: var(--color1);
+}
+
+
+/* Sec-13-Grid-card-02 */
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(
+      2,
+      minmax(200px, 1fr)
+    ); /* 2 columns on medium screens */
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .grid-container2 {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .grid-items {
+    flex-direction: row; /* Align items in a row */
+    align-items: center;
+    padding: 10px;
+    height: auto; /* Adjust height according to content */
+  }
+
+  /* Hide the paragraph on small screens */
+  .grid-items p {
+    display: none;
+  }
+
+  /* Icon adjustment */
+  .grid-items::before {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    top: auto;
+    left: 0;
+    position: relative;
+  }
+
+  /* Adjust h3 layout */
+  .grid-items h3 {
+    margin: 0;
+    padding:0px;
+    flex: 1;
+    font-size: 1.2rem;
+  }
+
+  /* Arrow icon at the end */
+  .grid-items h3 i {
+    margin-left: auto;
+  }
+}
+
